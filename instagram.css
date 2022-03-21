@@ -1,0 +1,148 @@
+.entire {
+    width: 340px;
+    height: 720px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    justify-content: space-around;
+    positon: absolute;
+}
+
+p{
+    line-height: 10%;
+    font-size: small;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 50px;
+    position: relative;
+}
+
+.name {
+    font-weight: 900;
+    font-size: larger;
+    justify-content: flex-start;
+    width:280px;
+    position: relative;
+    left: 15px;
+}
+.icon {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ <!--위에까지는 상단고정-->
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container2 img {
+    width: 70px;
+    border-radius: 50px;
+    position: relative;
+    left: 10px;
+}
+.profile2 {
+    display: flex;
+    position: absolute;
+    left: 150px;
+    justify-content: space-around;
+    text-align: center;
+    padding-right: 50px;
+}
+#number {
+    font-weight: bold;
+}
+#word {
+    font-weight:lighter;
+}
+#blue {
+    color: blue;
+}
+
+.container3 {
+    position: relative;
+    left: 10px;
+}
+
+.box1 {
+    display: flex;
+    text-align: center;
+    text-size: small;
+    flex-direction: column;
+    justify-content: center;
+    width: 315px;
+    height: 30px;
+    border-radius: 8px;
+    position: relative;
+    left: 3px;
+    border-color: black;
+    border: 0.0001cm solid gray;
+}
+
+.box2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    left: 3px;
+    border-color: black;
+    border: 0.0001cm solid gray;
+}
+
+.container4 {
+    display: flex; 
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.story {
+    text-align: center;
+}
+.story img {
+    width: 50px;
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container5 img {
+    width: 20px;
+}
+
+.container6 {
+    display: 
+}
+
+.box3{
+    display: flex;
+    position: relative;
+    left: 1.5px; 
+}
+
+.box3 .item img {
+    width: 110px;
+    justify-content: space-around;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer img {
+    width: 20px;
+    border-radius: 50px;
+}
